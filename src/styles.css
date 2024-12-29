@@ -51,6 +51,7 @@ button {
   flex-direction: column;
   width: max-content;
   height: max-content;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 #yesResponse > .text {
