@@ -9,8 +9,7 @@ noButton.addEventListener("mouseover", () => {
   noButton.style.top = `${randomY}px`;
 });
 
-// document.getElementById("yes").addEventListener("click", () => {
-//   const pop = document.createElement('div');
-//   pop.innerHTML = `Thank you!`;
-//     pop.style.display = 'block';
-// });
+document.getElementById("yes").addEventListener("click", () => {
+  const pop = document.querySelector('#yesResponse');
+    pop.style.display = 'flex';
+});

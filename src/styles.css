@@ -3,6 +3,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   margin: 0;
@@ -30,16 +33,21 @@ button {
   margin: 10px;
   cursor: pointer;
 }
+
 #no {
   position: relative;
 }
 
 #yesResponse {
-  position: absolute;
+  display: none;
   border: 1px solid black;
-  left: 50%;
-  right: 50%;
+  flex-direction: column;
   width: max-content;
   height: max-content;
   background-color: white;
+}
+
+#yesResponse > p {
+  width: 200px;
+  height: 50px;
 }
