@@ -10,9 +10,12 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: aqua; /* Use for testing */
+  background-color: aqua;
   font-family: Arial, sans-serif;
   text-align: center;
+}
+
+main {
   margin-top: 100px;
 }
 
