@@ -10,9 +10,10 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: aqua;
+  background-color: #FFF;
   font-family: Arial, sans-serif;
   text-align: center;
+  color: #F33A6A;
 }
 
 main {
@@ -35,6 +36,10 @@ button {
   padding: 10px 20px;
   margin: 10px;
   cursor: pointer;
+  border-color: #F33A6A;
+  background-color: #FEF1F3;
+  color: #F33A6A;
+  border-radius: 27px;
 }
 
 #no {
@@ -48,10 +53,11 @@ button {
   height: max-content;
 }
 
-#yesResponse > p {
-  text-align: justify;
+#yesResponse > .text {
+  text-align: center;
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   width: 200px;
   height: 50px;
 }
